@@ -1,0 +1,8 @@
+Question: Executing the code will throw an error. Can you explain why?
+
+    a = 1
+    b = 2
+    print(a == b)
+    print(b == c)
+
+In the 4th line, variable c is undefined so the code will throw a NameError.
